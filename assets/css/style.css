@@ -1917,7 +1917,7 @@ p:last-child {
 
 .slider .parallax-slider {
     position: relative;
-    height: 700px;
+    /* height: 700px; */
 }
 
 .slider .parallax-slider .swiper-slide {
@@ -4346,7 +4346,8 @@ blockquote::after,
  ** - 17 - Partner Slider CSS
  **************************************/
 .partner-area {
-    padding: 50px 0px;
+    /*padding: 50px 0px; Old one*/
+    padding: 50px 0px 0px 0px; /*new one*/
 }
 
 .partner-slide-item {
@@ -5070,8 +5071,4 @@ blockquote::after,
 
 .copyright-area ul li:first-child {
     margin-left: 0;
-}
-
-.slider .parallax-slider .swiper-slide {
-    min-height: 80vh;
 }
